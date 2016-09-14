@@ -1,0 +1,16 @@
+*** Settings ***
+
+Library     org.robotframework.javalib.library.AnnotationLibrary    fi/eis/applications/robot/*.class
+
+Resource    example_test_case_definitions.robot
+
+*** Variables ***
+
+*** Test Cases ***
+
+Simple test
+    Our simple test
+Test handling state
+    Test with two steps
+
+*** Keywords ***
